@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot2-springaop-example (6)" />
+        <module name="spring-aop-advice-examples" />
+        <module name="springboot2-springaop-example (2)" />
+        <module name="springboot2-springaop-example (3)" />
+        <module name="springboot2-springaop-example (1)" />
+        <module name="springboot2-springaop-example (4)" />
+        <module name="springboot2-springaop-example (5)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-aop-advice-examples" options="-parameters" />
+      <module name="springboot2-springaop-example (1)" options="-parameters" />
+      <module name="springboot2-springaop-example (2)" options="-parameters" />
+      <module name="springboot2-springaop-example (3)" options="-parameters" />
+      <module name="springboot2-springaop-example (4)" options="-parameters" />
+      <module name="springboot2-springaop-example (5)" options="-parameters" />
+      <module name="springboot2-springaop-example (6)" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>
