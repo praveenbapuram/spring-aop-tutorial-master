@@ -24,6 +24,5 @@
         <module>spring-aop-around-advice-example</module>
         <module>spring-aop-before-advice-example</module>
         <module>springboot2-springaop-example</module>
-        <module>test</module>
     </modules>
 </project>

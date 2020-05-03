@@ -11,8 +11,13 @@
         <module name="springboot2-springaop-example (2)" />
         <module name="springboot2-springaop-example (3)" />
         <module name="springboot2-springaop-example (1)" />
-        <module name="springboot2-springaop-example (4)" />
         <module name="springboot2-springaop-example (5)" />
+      </profile>
+      <profile name="Annotation profile for spring-aop-tutorial-master" enabled="true">
+        <sourceOutputDir name="../spring-aop-afterthrowing-advice-example/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-aop-afterthrowing-advice-example/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot2-springaop-example (4)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
